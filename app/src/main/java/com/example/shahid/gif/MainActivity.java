@@ -2,6 +2,7 @@ package com.example.shahid.gif;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.widget.Button;
 
 import pl.droidsonroids.gif.GifImageView;
 
@@ -14,6 +15,7 @@ public class MainActivity extends AppCompatActivity {
         GifImageView gifImageView;
         gifImageView=findViewById(R.id.i);
         gifImageView.setImageResource(R.drawable.brother);
+        Button button;
     }
 
 }
